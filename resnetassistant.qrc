@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>images/connect.jpg</file>
+        <file>images/disconnect.jpg</file>
+        <file>stylesheet/WindowsStyle.qss</file>
+        <file>stylesheet/LinuxStyle.qss</file>
+        <file>images/NoChecked.jpg</file>
+        <file>images/Checked.jpg</file>
+        <file>images/CheckDisabled.jpg</file>
+        <file>images/DarkDisconnect.jpg</file>
+        <file>images/DarkConnect.jpg</file>
+        <file>images/tile.bmp</file>
+        <file>images/tab.bmp</file>
+        <file>images/saveconfig.bmp</file>
+        <file>images/loadconfig.bmp</file>
+        <file>images/Language.bmp</file>
+        <file>images/add.png</file>
+        <file>images/netassistant.png</file>
+    </qresource>
+</RCC>

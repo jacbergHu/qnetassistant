@@ -1,0 +1,220 @@
+
+/***********************Dark Style Sheet for QT Applications***************/
+QWidget{
+    background-color:rgba(51,51,51,255);
+    color:white;
+    selection-background-color: #6A92D4;
+    selection-color: white;
+    font-family:Arial,SimSun;
+    font-size: 14px;
+    margin:1px 1px 1px 1px;
+}
+
+QMainWindow {
+    background-color:rgba(51,51,51,255);
+    font-family:Arial,SimSun;
+    font-size: 14px;
+    color:white;
+}
+QToolBar{
+     background-color:rgba(51,51,51,255);
+     color:white;
+     selection-background-color: #6A92D4;
+     selection-color: white;
+     font-family:Arial,SimSun;
+     font-size: 14px;
+}
+
+QToolButton{
+    border:0px;
+}
+
+QTextEdit{
+    background-color:rgba(70,70,70,255);
+    color: white;
+    font-family:Arial,SimSun;
+    font-size: 14px;
+}
+
+QTextEdit:disabled{
+    background-color:gray;
+    color: white;
+    font-family:Arial,SimSun;
+    font-size: 14px;
+}
+QGroupBox{
+    border:1px solid rgb(95,95,95);
+    margin-top:20px;
+}
+QGroupBox::title{
+    subcontrol-origin:margin;
+    subcontrol-position:top left;
+}
+QPushButton{
+    font-family:Arial;
+    font-size: 14px;
+    color:white;
+    border-width: 1px;
+    border-radius:2px;
+    border-style: solid;
+    border-color: #5F5F5F;
+    background-color: rgba(51,51,51,255);
+    margin-left:10px;
+    margin-top:2px;
+    margin-bottom:2px;
+    margin-right:10px;
+}
+QPushButton:hover{
+    font-family:Arial;
+    font-size: 14px;
+    color: rgba(0,0,0,255);
+    border-width: 1px;
+    border-radius:2px;
+    border-color: #5F5F5F;
+    border-style: solid;
+    background-color: rgba(95,95,95,255);
+}
+
+QPushButton:checked,QPushButton:pressed{
+    font-family:Arial;
+    font-size: 14px;
+    color: rgba(255,255,255,255);
+    border-width: 1px;
+    border-radius:2px;
+    border-width: 1px;
+    border-color: #5F5F5F;
+    border-style: solid;
+    background-color: #232323;
+}
+
+QLineEdit{
+    font-family:Arial,SimSun;
+    font-size: 14px;
+    border-width: 1px;
+    border-color: rgb(95, 95, 95);
+    border-style: inset;
+    margin-left:10px;
+    margin-right:10px;
+    color: white;
+    background:transparent;
+    selection-background-color: #6A92D4;
+    selection-color: white;
+}
+QLineEdit:disabled{
+    font-family:Arial,SimSun;
+    font-size: 14px;
+    border-width: 1px;
+    border-color: rgb(95, 95, 95);
+    border-style: inset;
+    margin-left:10px;
+    margin-right:10px;
+    color: black;
+    background:gray;
+}
+QLabel {
+    color:white;
+    font-family:Arial,SimSun;
+    font-size: 14px;
+}
+QMdiArea{
+    background-color: rgba(51,51,51,255);
+}
+
+QTabBar::tab {
+    border-style: solid;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-color:#5F5F5F;
+    border-width: 1px;
+    color: #FFFFFF;
+    padding: 3px;
+    background-color: rgba(51,51,51,255);
+}
+QTabBar::tab:selected, QTabBar::tab:last:selected{
+    border:1px solid rgb(95,95,95);
+    color: #FFFFFF;
+    padding-left: 3px;
+    padding-bottom: 2px;
+    background-color: rgba(31,31,31,255);
+}
+QTabBar::tab:hover {
+    border-color: #5F5F5F;
+    border-width: 1px;
+    border-style: solid;
+    color: #FFFFFF;
+    padding: 3px;
+    background-color: #5F5F5F;
+}
+QCheckBox {
+    border:0px;
+    color:white;
+    padding-left: 10px;
+    font-family:Arial,SimSun;
+    font-size: 14px;
+}
+QCheckBox:disabled {
+    border:0px;
+    color: #808086;
+    padding-left: 10px;
+    font-family:Arial,SimSun;
+    font-size: 14px;
+}
+
+QCheckBox:hover {
+    border:0px;
+    background-color:rgba(51,51,51,255);
+    font-family:Arial,SimSun;
+    font-size: 14px;
+    padding-left: 10px;
+}
+QCheckBox::indicator{
+    width:15px;
+    height:15px;
+}
+QCheckBox::indicator:checked {
+    image:url(":/images/images/Checked.jpg");
+}
+QCheckBox::indicator:unchecked {
+    image:url(":/images/images/NoChecked.jpg");
+}
+QCheckBox::indicator:disabled{
+    image:url(":/images/images/CheckDisabled.jpg");
+}
+
+QComboBox {
+    margin-right:5px;
+    border:1px solid rgb(95,95,95);
+    color:white;
+    background:rgba(80,80,80,255);
+    font-family:Arial,SimSun;
+    font-size: 14px;
+}
+
+QComboBox:disabled{
+    margin-right:5px;
+    border:1px solid rgb(95,95,95);
+    color: black;
+    background:gray;
+    font-family:Arial,SimSun;
+    font-size: 14px;
+}
+
+QComboBox:editable {
+    font-family:Arial,SimSun;
+    font-size: 14px;
+    selection-background-color: rgba(51,51,51,255);
+    margin-right:5px;
+}
+QComboBox::item{
+    font-family:Arial,SimSun;
+    font-size: 14px;
+    color:white;
+    background:rgba(80,80,80,255);
+    selection-color: #FFFFFF;
+    selection-background-color: rgba(51,51,51,255);
+}
+QComboBox:!editable:on, QComboBox::drop-down:editable:on {
+    margin-right:5px;
+    font-family:Arial,SimSun;
+    font-size: 14px;
+}
