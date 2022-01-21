@@ -5,4 +5,4 @@ so this tool is developed for us to do some test at network and serialport,etc,i
 this tool is developed by all Qt/C++,some bugs is existed,if you found them can tell me,thanks.
 
 app ruinning window is like:
-<div align=center><img src="https://github.com/jacbergHu/qnetassistant/blob/main/images/software.png" width="300" height="450" ><div>
+<div align=center><img src="https://github.com/jacbergHu/qnetassistant/blob/main/images/software.png" width="300" height="300" ><div>
